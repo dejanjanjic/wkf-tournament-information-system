@@ -100,14 +100,8 @@ Aplikacija podržava personalizaciju korisničkog iskustva i za administratore i
 
 ## 💻 Tehnička dokumentacija
 
-- 🔧 **Tehnologije:** C#, XAML
+- 🔧 **Tehnologije:** C#, WPF
 - 💾 **Skladištenje podataka:** MySQL 
-- 📁 **Organizacija projekta:**
-  - `/controllers` – JavaFX kontroleri
-  - `/models` – Logički model aplikacije
-  - `/views` – FXML fajlovi
-  - `/resources` – Slike, stilovi, jezičke datoteke
-  - `/utils` – Pomoćne klase (npr. za validaciju, čuvanje podataka)
 
 --------------------------------------------------
 
