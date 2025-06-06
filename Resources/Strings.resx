@@ -1,0 +1,860 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="TitleLogin" xml:space="preserve">
+    <value>WKF Tournament System - Prijava</value>
+  </data>
+  <data name="LblUsername" xml:space="preserve">
+    <value>Korisničko ime</value>
+  </data>
+  <data name="LblPassword" xml:space="preserve">
+    <value>Lozinka</value>
+  </data>
+  <data name="BtnLogin" xml:space="preserve">
+    <value>PRIJAVI SE</value>
+  </data>
+  <data name="Copyright" xml:space="preserve">
+    <value>© WKF Tournament Management System</value>
+  </data>
+  <data name="MsgEmptyUsername" xml:space="preserve">
+    <value>Molimo unesite korisničko ime.</value>
+  </data>
+  <data name="MsgEmptyPassword" xml:space="preserve">
+    <value>Molimo unesite lozinku.</value>
+  </data>
+  <data name="AdminWindowTitle" xml:space="preserve">
+    <value>Administrator Panel</value>
+  </data>
+  <data name="NavGroup_Management" xml:space="preserve">
+    <value>UPRAVLJANJE</value>
+  </data>
+  <data name="NavButton_Tournaments" xml:space="preserve">
+    <value>🏆 Takmičenja</value>
+  </data>
+  <data name="NavButton_Operators" xml:space="preserve">
+    <value>👤 Operatori</value>
+  </data>
+  <data name="NavButton_Categories" xml:space="preserve">
+    <value>📋 Kategorije</value>
+  </data>
+  <data name="NavButton_Clubs" xml:space="preserve">
+    <value>🏢 Klubovi</value>
+  </data>
+  <data name="NavButton_Competitors" xml:space="preserve">
+    <value>🥋 Takmičari</value>
+  </data>
+  <data name="NavGroup_System" xml:space="preserve">
+    <value>SISTEM</value>
+  </data>
+  <data name="NavButton_Settings" xml:space="preserve">
+    <value>⚙️ Podešavanja</value>
+  </data>
+  <data name="NavButton_Logout" xml:space="preserve">
+    <value>🚪 Odjavi se</value>
+  </data>
+  <data name="Search_Tooltip" xml:space="preserve">
+    <value>Pretražite...</value>
+  </data>
+  <data name="Action_Edit" xml:space="preserve">
+    <value>✏️ Izmjeni</value>
+  </data>
+  <data name="Action_Delete" xml:space="preserve">
+    <value>🗑️ Obriši</value>
+  </data>
+  <data name="Action_Details" xml:space="preserve">
+    <value>👁️ Detalji</value>
+  </data>
+  <data name="Action_EditPassword" xml:space="preserve">
+    <value>✏️ Izmjeni šifru</value>
+  </data>
+  <data name="GridHeader_TournamentName" xml:space="preserve">
+    <value>Naziv takmičenja</value>
+  </data>
+  <data name="GridHeader_StartDate" xml:space="preserve">
+    <value>Datum početka</value>
+  </data>
+  <data name="GridHeader_EndDate" xml:space="preserve">
+    <value>Datum završetka</value>
+  </data>
+  <data name="GridHeader_Location" xml:space="preserve">
+    <value>Lokacija</value>
+  </data>
+  <data name="GridHeader_Username" xml:space="preserve">
+    <value>Korisničko ime</value>
+  </data>
+  <data name="GridHeader_CategoryName" xml:space="preserve">
+    <value>Naziv kategorije</value>
+  </data>
+  <data name="GridHeader_FirstName" xml:space="preserve">
+    <value>Ime</value>
+  </data>
+  <data name="GridHeader_LastName" xml:space="preserve">
+    <value>Prezime</value>
+  </data>
+  <data name="GridHeader_Club" xml:space="preserve">
+    <value>Klub</value>
+  </data>
+  <data name="GridHeader_DateOfBirth" xml:space="preserve">
+    <value>Datum rođenja</value>
+  </data>
+  <data name="GridHeader_ClubName" xml:space="preserve">
+    <value>Naziv kluba</value>
+  </data>
+  <data name="Status_Ready" xml:space="preserve">
+    <value>Spremno</value>
+  </data>
+  <data name="Status_Total" xml:space="preserve">
+    <value>Ukupno:</value>
+  </data>
+  <data name="Tooltip_Minimize" xml:space="preserve">
+    <value>Minimizuj</value>
+  </data>
+  <data name="Tooltip_Maximize" xml:space="preserve">
+    <value>Maksimizuj</value>
+  </data>
+  <data name="Tooltip_Restore" xml:space="preserve">
+    <value>Vrati</value>
+  </data>
+  <data name="Tooltip_Close" xml:space="preserve">
+    <value>Zatvori</value>
+  </data>
+  <data name="WelcomeUser" xml:space="preserve">
+    <value>Dobrodošli, {0}</value>
+  </data>
+  <data name="Confirm_CloseApp_Text" xml:space="preserve">
+    <value>Da li ste sigurni da želite da zatvorite aplikaciju?</value>
+  </data>
+  <data name="Confirm_CloseApp_Caption" xml:space="preserve">
+    <value>Potvrda zatvaranja</value>
+  </data>
+  <data name="Confirm_Logout_Text" xml:space="preserve">
+    <value>Da li ste sigurni da se želite odjaviti?</value>
+  </data>
+  <data name="Confirm_Logout_Caption" xml:space="preserve">
+    <value>Potvrda odjave</value>
+  </data>
+  <data name="Settings_Info_Text" xml:space="preserve">
+    <value>Podešavanja - funkcionalnost u razvoju</value>
+  </data>
+  <data name="Settings_Info_Caption" xml:space="preserve">
+    <value>Informacija</value>
+  </data>
+  <data name="PageTitle_Tournaments" xml:space="preserve">
+    <value>Upravljanje takmičenjima</value>
+  </data>
+  <data name="PageSubtitle_Tournaments" xml:space="preserve">
+    <value>Dodavajte, mijenjajte i upravljajte takmičenjima</value>
+  </data>
+  <data name="Search_Tournaments" xml:space="preserve">
+    <value>Pretražite takmičenja...</value>
+  </data>
+  <data name="Add_Tournament" xml:space="preserve">
+    <value>➕ Dodaj takmičenje</value>
+  </data>
+  <data name="PageTitle_Operators" xml:space="preserve">
+    <value>Upravljanje operatorima</value>
+  </data>
+  <data name="PageSubtitle_Operators" xml:space="preserve">
+    <value>Dodajte, mijenjajte i upravljajte operatorskim nalozima</value>
+  </data>
+  <data name="Search_Operators" xml:space="preserve">
+    <value>Pretražite operatore...</value>
+  </data>
+  <data name="Add_Operator" xml:space="preserve">
+    <value>➕ Dodaj operatora</value>
+  </data>
+  <data name="PageTitle_Categories" xml:space="preserve">
+    <value>Upravljanje kategorijama</value>
+  </data>
+  <data name="PageSubtitle_Categories" xml:space="preserve">
+    <value>Organizujte kategorije po takmičenjima</value>
+  </data>
+  <data name="Search_Categories" xml:space="preserve">
+    <value>Pretražite kategorije...</value>
+  </data>
+  <data name="Add_Category" xml:space="preserve">
+    <value>➕ Dodaj kategoriju</value>
+  </data>
+  <data name="PageTitle_Competitors" xml:space="preserve">
+    <value>Upravljanje takmičarima</value>
+  </data>
+  <data name="PageSubtitle_Competitors" xml:space="preserve">
+    <value>Upravljajte takmičarima i njihovim registracijama</value>
+  </data>
+  <data name="Search_Competitors" xml:space="preserve">
+    <value>Pretražite takmičare...</value>
+  </data>
+  <data name="Add_Competitor" xml:space="preserve">
+    <value>➕ Dodaj takmičara</value>
+  </data>
+  <data name="PageTitle_Clubs" xml:space="preserve">
+    <value>Upravljanje klubovima</value>
+  </data>
+  <data name="PageSubtitle_Clubs" xml:space="preserve">
+    <value>Dodajte, mijenjajte i upravljajte klubovima</value>
+  </data>
+  <data name="Search_Clubs" xml:space="preserve">
+    <value>Pretražite klubove...</value>
+  </data>
+  <data name="Add_Club" xml:space="preserve">
+    <value>➕ Dodaj klub</value>
+  </data>
+  <data name="Status_Loading" xml:space="preserve">
+    <value>Učitavanje podataka...</value>
+  </data>
+  <data name="Status_LoadingTournaments" xml:space="preserve">
+    <value>Učitavanje takmičenja...</value>
+  </data>
+  <data name="Status_LoadingOperators" xml:space="preserve">
+    <value>Učitavanje operatora...</value>
+  </data>
+  <data name="Status_LoadingCategories" xml:space="preserve">
+    <value>Učitavanje kategorija...</value>
+  </data>
+  <data name="Status_LoadingCompetitors" xml:space="preserve">
+    <value>Učitavanje takmičara...</value>
+  </data>
+  <data name="Status_LoadingClubs" xml:space="preserve">
+    <value>Učitavanje klubova...</value>
+  </data>
+  <data name="Status_ShowingTournaments" xml:space="preserve">
+    <value>Prikazuje se {0} takmičenja.</value>
+  </data>
+  <data name="Status_ShowingOperators" xml:space="preserve">
+    <value>Prikazuje se {0} operatora.</value>
+  </data>
+  <data name="Status_ShowingCategories" xml:space="preserve">
+    <value>Prikazuje se {0} kategorija.</value>
+  </data>
+  <data name="Status_ShowingCompetitors" xml:space="preserve">
+    <value>Prikazuje se {0} takmičara.</value>
+  </data>
+  <data name="Status_ShowingClubs" xml:space="preserve">
+    <value>Prikazuje se {0} klubova.</value>
+  </data>
+  <data name="Error_LoadingTournaments" xml:space="preserve">
+    <value>Greška prilikom učitavanja takmičenja.</value>
+  </data>
+  <data name="Error_LoadingOperators" xml:space="preserve">
+    <value>Greška prilikom učitavanja operatora.</value>
+  </data>
+  <data name="Error_LoadingCategories" xml:space="preserve">
+    <value>Greška prilikom učitavanja kategorija.</value>
+  </data>
+  <data name="Error_LoadingCompetitors" xml:space="preserve">
+    <value>Greška prilikom učitavanja takmičara.</value>
+  </data>
+  <data name="Error_LoadingClubs" xml:space="preserve">
+    <value>Greška prilikom učitavanja klubova.</value>
+  </data>
+  <data name="Confirm_Delete_Caption" xml:space="preserve">
+    <value>Potvrda brisanja</value>
+  </data>
+  <data name="Confirm_DeleteTournament_Text" xml:space="preserve">
+    <value>Da li ste sigurni da želite da obrišete takmičenje '{0}'?</value>
+  </data>
+  <data name="Confirm_DeleteOperator_Text" xml:space="preserve">
+    <value>Da li ste sigurni da želite da obrišete operatora '{0}'?</value>
+  </data>
+  <data name="Confirm_DeleteCategory_Text" xml:space="preserve">
+    <value>Da li ste sigurni da želite da obrišete kategoriju '{0}'?</value>
+  </data>
+  <data name="Confirm_DeleteCompetitor_Text" xml:space="preserve">
+    <value>Da li ste sigurni da želite da obrišete takmičara '{0} {1}'?</value>
+  </data>
+  <data name="Confirm_DeleteClub_Text" xml:space="preserve">
+    <value>Da li ste sigurni da želite da obrišete klub '{0}'?</value>
+  </data>
+  <data name="Status_Deleting" xml:space="preserve">
+    <value>Brisanje...</value>
+  </data>
+  <data name="Status_Deleted" xml:space="preserve">
+    <value>Uspešno obrisano.</value>
+  </data>
+  <data name="Error_Deleting" xml:space="preserve">
+    <value>Brisanje nije uspelo.</value>
+  </data>
+  <data name="Error_Generic" xml:space="preserve">
+    <value>Greška</value>
+  </data>
+  <data name="Error_Validation" xml:space="preserve">
+    <value>Greška validacije</value>
+  </data>
+  <data name="Error_Database" xml:space="preserve">
+    <value>Greška u bazi</value>
+  </data>
+  <data name="Error_Saving" xml:space="preserve">
+    <value>Greška pri čuvanju</value>
+  </data>
+  <data name="Status_Updating" xml:space="preserve">
+    <value>Ažuriranje...</value>
+  </data>
+  <data name="Status_Updated" xml:space="preserve">
+    <value>Uspešno ažurirano.</value>
+  </data>
+  <data name="Error_Updating" xml:space="preserve">
+    <value>Ažuriranje nije uspelo.</value>
+  </data>
+  <data name="Status_Adding" xml:space="preserve">
+    <value>Dodavanje...</value>
+  </data>
+  <data name="Status_Added" xml:space="preserve">
+    <value>Uspešno dodato.</value>
+  </data>
+  <data name="Success_Caption" xml:space="preserve">
+    <value>Uspeh</value>
+  </data>
+  <data name="PasswordChangedSuccess" xml:space="preserve">
+    <value>Lozinka za operatora '{0}' je uspešno promenjena.</value>
+  </data>
+  <data name="Error_CompetitorConnected" xml:space="preserve">
+    <value>Moguće je da je takmičar povezan sa drugim podacima (npr. rezultatima) i ne može biti obrisan.</value>
+  </data>
+  <data name="Error_ClubConnected" xml:space="preserve">
+    <value>Proverite da li klub ima povezane takmičare.</value>
+  </data>
+  <data name="InvalidCredentials" xml:space="preserve">
+    <value>Neispravno korisničko ime ili lozinka.</value>
+  </data>
+  <data name="LoginError" xml:space="preserve">
+    <value>Došlo je do greške prilikom prijave. Molimo pokušajte ponovo.</value>
+  </data>
+  <data name="UnknownRole" xml:space="preserve">
+    <value>Nepoznata ili nepodržana korisnička uloga.</value>
+  </data>
+  <data name="Error_SavingTournament" xml:space="preserve">
+    <value>Nije uspelo dodavanje takmičenja u bazu.</value>
+  </data>
+  <data name="Error_UpdatingTournament" xml:space="preserve">
+    <value>Nije uspelo ažuriranje takmičenja.</value>
+  </data>
+  <data name="AddEditCategory_TitleBarText" xml:space="preserve">
+    <value>Kategorija</value>
+  </data>
+  <data name="AddEditCategory_Header" xml:space="preserve">
+    <value>Podaci o kategoriji</value>
+  </data>
+  <data name="AddEditCategory_LblCategoryName" xml:space="preserve">
+    <value>Naziv kategorije *</value>
+  </data>
+  <data name="AddEditCategory_Info_FieldMarkedWith" xml:space="preserve">
+    <value>Polje označeno sa </value>
+  </data>
+  <data name="AddEditCategory_Info_IsRequired" xml:space="preserve">
+    <value> je obavezno.</value>
+  </data>
+  <data name="Button_Cancel" xml:space="preserve">
+    <value>Otkaži</value>
+  </data>
+  <data name="Button_Save" xml:space="preserve">
+    <value>Sačuvaj</value>
+  </data>
+  <data name="AddEditCategory_Title_Add" xml:space="preserve">
+    <value>Dodaj novu kategoriju</value>
+  </data>
+  <data name="AddEditCategory_Title_Edit" xml:space="preserve">
+    <value>Izmeni kategoriju</value>
+  </data>
+  <data name="Validation_CategoryNameRequired" xml:space="preserve">
+    <value>Naziv kategorije je obavezan.</value>
+  </data>
+  <data name="Validation_CategoryNameMaxLength" xml:space="preserve">
+    <value>Naziv može imati maksimalno 500 karaktera.</value>
+  </data>
+  <data name="Validation_FixErrorsBeforeSaving" xml:space="preserve">
+    <value>Molimo ispravite greške u formi pre čuvanja.</value>
+  </data>
+  <data name="Validation_ErrorCaption" xml:space="preserve">
+    <value>Greška u validaciji</value>
+  </data>
+  <data name="AddEditClub_LblClubName" xml:space="preserve">
+    <value>Naziv kluba *</value>
+  </data>
+  <data name="AddEditClub_Title_Add" xml:space="preserve">
+    <value>Dodaj novi klub</value>
+  </data>
+  <data name="AddEditClub_Title_Edit" xml:space="preserve">
+    <value>Izmjeni klub</value>
+  </data>
+  <data name="Validation_ClubNameRequired" xml:space="preserve">
+    <value>Naziv kluba je obavezan.</value>
+  </data>
+  <data name="Validation_ClubNameMaxLength" xml:space="preserve">
+    <value>Naziv kluba ne može biti duži od 200 karaktera.</value>
+  </data>
+  <data name="Validation_FixErrorsInForm" xml:space="preserve">
+    <value>Molimo ispravite greške u formi.</value>
+  </data>
+  <data name="AddEditCompetitor_TitleBarText" xml:space="preserve">
+    <value>Takmičar</value>
+  </data>
+  <data name="AddEditCompetitor_Header" xml:space="preserve">
+    <value>Podaci o takmičaru</value>
+  </data>
+  <data name="AddEditCompetitor_LblFirstName" xml:space="preserve">
+    <value>Ime *</value>
+  </data>
+  <data name="AddEditCompetitor_LblLastName" xml:space="preserve">
+    <value>Prezime *</value>
+  </data>
+  <data name="AddEditCompetitor_LblClub" xml:space="preserve">
+    <value>Klub *</value>
+  </data>
+  <data name="AddEditCompetitor_LblDateOfBirth" xml:space="preserve">
+    <value>Datum rođenja *</value>
+  </data>
+  <data name="AddEditCompetitor_Info_AllFieldsRequired" xml:space="preserve">
+    <value>Sva polja označena sa </value>
+  </data>
+  <data name="AddEditCompetitor_Title_Add" xml:space="preserve">
+    <value>Dodaj novog takmičara</value>
+  </data>
+  <data name="AddEditCompetitor_Title_Edit" xml:space="preserve">
+    <value>Izmjeni takmičara: {0} {1}</value>
+  </data>
+  <data name="Validation_FirstNameRequired" xml:space="preserve">
+    <value>Ime je obavezno.</value>
+  </data>
+  <data name="Validation_FirstNameMaxLength" xml:space="preserve">
+    <value>Ime može imati maksimalno 50 karaktera.</value>
+  </data>
+  <data name="Validation_LastNameRequired" xml:space="preserve">
+    <value>Prezime je obavezno.</value>
+  </data>
+  <data name="Validation_LastNameMaxLength" xml:space="preserve">
+    <value>Prezime može imati maksimalno 100 karaktera.</value>
+  </data>
+  <data name="Validation_DateOfBirthRequired" xml:space="preserve">
+    <value>Datum rođenja je obavezan.</value>
+  </data>
+  <data name="Validation_DateOfBirthInvalidFuture" xml:space="preserve">
+    <value>Datum rođenja ne može biti u budućnosti.</value>
+  </data>
+  <data name="Validation_DateOfBirthMinAge" xml:space="preserve">
+    <value>Takmičar mora imati najmanje 3 godine.</value>
+  </data>
+  <data name="Validation_ClubRequired" xml:space="preserve">
+    <value>Izbor kluba je obavezan.</value>
+  </data>
+  <data name="Error_LoadingClubs_MessageBox" xml:space="preserve">
+    <value>Greška pri učitavanju klubova: {0}</value>
+  </data>
+  <data name="AddEditOperator_TitleBarText" xml:space="preserve">
+    <value>Operator</value>
+  </data>
+  <data name="AddEditOperator_Header" xml:space="preserve">
+    <value>Informacije o operatoru</value>
+  </data>
+  <data name="AddEditOperator_LblUsername" xml:space="preserve">
+    <value>Korisničko ime *</value>
+  </data>
+  <data name="AddEditOperator_LblPassword" xml:space="preserve">
+    <value>Lozinka *</value>
+  </data>
+  <data name="AddEditOperator_LblConfirmPassword" xml:space="preserve">
+    <value>Potvrdi lozinku *</value>
+  </data>
+  <data name="AddEditOperator_Info_PasswordMinLength" xml:space="preserve">
+    <value>Lozinka mora imati najmanje 6 karaktera.</value>
+  </data>
+  <data name="AddEditOperator_Title_Add" xml:space="preserve">
+    <value>Dodaj novog operatora</value>
+  </data>
+  <data name="AddEditOperator_Title_Edit" xml:space="preserve">
+    <value>Izmjeni operatora: {0}</value>
+  </data>
+  <data name="Validation_UsernameRequired" xml:space="preserve">
+    <value>Korisničko ime je obavezno.</value>
+  </data>
+  <data name="Validation_UsernameMinLength" xml:space="preserve">
+    <value>Korisničko ime mora imati najmanje 3 karaktera.</value>
+  </data>
+  <data name="Validation_UsernameMaxLength" xml:space="preserve">
+    <value>Korisničko ime može imati maksimalno 50 karaktera.</value>
+  </data>
+  <data name="Validation_PasswordRequired" xml:space="preserve">
+    <value>Lozinka je obavezna.</value>
+  </data>
+  <data name="Validation_PasswordMinLength" xml:space="preserve">
+    <value>Lozinka mora imati najmanje 6 karaktera.</value>
+  </data>
+  <data name="Validation_PasswordMaxLength" xml:space="preserve">
+    <value>Lozinka može imati maksimalno 100 karaktera.</value>
+  </data>
+  <data name="Validation_ConfirmPasswordRequired" xml:space="preserve">
+    <value>Potvrdite lozinku.</value>
+  </data>
+  <data name="Validation_PasswordsDoNotMatch" xml:space="preserve">
+    <value>Lozinke se ne poklapaju.</value>
+  </data>
+  <data name="AddTournament_TitleBarText" xml:space="preserve">
+    <value>Takmičenje</value>
+  </data>
+  <data name="AddTournament_Header" xml:space="preserve">
+    <value>Informacije o takmičenju</value>
+  </data>
+  <data name="AddTournament_LblTournamentName" xml:space="preserve">
+    <value>Naziv takmičenja *</value>
+  </data>
+  <data name="AddTournament_LblLocation" xml:space="preserve">
+    <value>Lokacija *</value>
+  </data>
+  <data name="AddTournament_LblSchedule" xml:space="preserve">
+    <value>Raspored takmičenja</value>
+  </data>
+  <data name="AddTournament_LblBeginningDateTime" xml:space="preserve">
+    <value>Datum i vreme početka *</value>
+  </data>
+  <data name="AddTournament_LblEndingDateTime" xml:space="preserve">
+    <value>Datum i vreme završetka *</value>
+  </data>
+  <data name="AddTournament_Info_TimeFormat" xml:space="preserve">
+    <value>Vreme unesite u 24-časovnom formatu (00-23 za sate, 00-59 za minute).</value>
+  </data>
+  <data name="AddTournament_Title_Add" xml:space="preserve">
+    <value>Dodaj novo takmičenje</value>
+  </data>
+  <data name="AddTournament_Title_Edit" xml:space="preserve">
+    <value>Izmjeni takmičenje</value>
+  </data>
+  <data name="Validation_TournamentNameRequired" xml:space="preserve">
+    <value>Naziv takmičenja je obavezan.</value>
+  </data>
+  <data name="Validation_TournamentNameMaxLength" xml:space="preserve">
+    <value>Naziv može imati maksimalno 500 karaktera.</value>
+  </data>
+  <data name="Validation_LocationRequired" xml:space="preserve">
+    <value>Lokacija je obavezna.</value>
+  </data>
+  <data name="Validation_BeginningDateInPast" xml:space="preserve">
+    <value>Datum početka ne može biti u prošlosti.</value>
+  </data>
+  <data name="Validation_EndingDateBeforeBeginning" xml:space="preserve">
+    <value>Datum završetka mora biti nakon datuma početka.</value>
+  </data>
+  <data name="AssignCategory_WindowTitle" xml:space="preserve">
+    <value>Dodeli kategoriju</value>
+  </data>
+  <data name="AssignCategory_TitleBarText" xml:space="preserve">
+    <value>Dodaj kategoriju na turnir</value>
+  </data>
+  <data name="AssignCategory_LblSelectCategory" xml:space="preserve">
+    <value>Izaberi kategoriju *</value>
+  </data>
+  <data name="AssignCategory_NoAvailableCategories" xml:space="preserve">
+    <value>Nema više dostupnih kategorija za dodavanje.</value>
+  </data>
+  <data name="Error_LoadingAvailableCategories" xml:space="preserve">
+    <value>Greška pri učitavanju dostupnih kategorija: {0}</value>
+  </data>
+  <data name="CategoryCompetitors_WindowTitle" xml:space="preserve">
+    <value>Takmičari - {0}</value>
+  </data>
+  <data name="CategoryCompetitors_PageSubtitle" xml:space="preserve">
+    <value>Takmičari za kategoriju: '{0}' na turniru: '{1}'</value>
+  </data>
+  <data name="CategoryCompetitors_BtnAddCompetitor" xml:space="preserve">
+    <value>➕ Dodaj takmičara</value>
+  </data>
+  <data name="CategoryCompetitors_BtnRemoveCompetitor" xml:space="preserve">
+    <value>🗑️ Ukloni takmičara</value>
+  </data>
+  <data name="Error_LoadingRegisteredCompetitors" xml:space="preserve">
+    <value>Greška pri učitavanju takmičara: {0}</value>
+  </data>
+  <data name="Error_RegisteringCompetitor" xml:space="preserve">
+    <value>Greška pri registraciji takmičara: {0}</value>
+  </data>
+  <data name="Confirm_RemoveCompetitor_Text" xml:space="preserve">
+    <value>Da li ste sigurni da želite da uklonite takmičara '{0}' iz ove kategorije?</value>
+  </data>
+  <data name="Error_RemovingCompetitor_Failed" xml:space="preserve">
+    <value>Uklanjanje takmičara nije uspelo.</value>
+  </data>
+  <data name="Error_RemovingCompetitor_Generic" xml:space="preserve">
+    <value>Greška pri uklanjanju takmičara: {0}</value>
+  </data>
+  <data name="RegisterCompetitor_WindowTitle" xml:space="preserve">
+    <value>Registruj takmičara</value>
+  </data>
+  <data name="RegisterCompetitor_TitleBarText" xml:space="preserve">
+    <value>Registruj takmičara za kategoriju</value>
+  </data>
+  <data name="RegisterCompetitor_LblSelectCompetitor" xml:space="preserve">
+    <value>Izaberi takmičara *</value>
+  </data>
+  <data name="RegisterCompetitor_NoAvailableCompetitors" xml:space="preserve">
+    <value>Nema više dostupnih takmičara za registraciju.</value>
+  </data>
+  <data name="Error_LoadingAvailableCompetitors" xml:space="preserve">
+    <value>Greška pri učitavanju dostupnih takmičara: {0}</value>
+  </data>
+  <data name="TournamentCategories_WindowTitle" xml:space="preserve">
+    <value>Kategorije za: {0}</value>
+  </data>
+  <data name="TournamentCategories_PageSubtitle" xml:space="preserve">
+    <value>Pregled i upravljanje kategorijama za turnir: {0}</value>
+  </data>
+  <data name="TournamentCategories_BtnViewCompetitors" xml:space="preserve">
+    <value>👥 Takmičari</value>
+  </data>
+  <data name="TournamentCategories_BtnAddCategory" xml:space="preserve">
+    <value>➕ Dodaj kategoriju</value>
+  </data>
+  <data name="TournamentCategories_BtnRemoveCategory" xml:space="preserve">
+    <value>🗑️ Ukloni kategoriju</value>
+  </data>
+  <data name="Error_LoadingCategoriesForTournament" xml:space="preserve">
+    <value>Greška pri učitavanju kategorija: {0}</value>
+  </data>
+  <data name="Error_AddingCategoryToTournament" xml:space="preserve">
+    <value>Greška pri dodavanju kategorije: {0}</value>
+  </data>
+  <data name="Confirm_RemoveCategoryFromTournament_Text" xml:space="preserve">
+    <value>Da li ste sigurni da želite da uklonite kategoriju '{0}' sa ovog turnira?</value>
+  </data>
+  <data name="Error_RemovingCategoryFromTournament_Failed" xml:space="preserve">
+    <value>Uklanjanje kategorije nije uspelo.</value>
+  </data>
+  <data name="Error_RemovingCategoryFromTournament_Generic" xml:space="preserve">
+    <value>Greška pri uklanjanju kategorije: {0}</value>
+  </data>
+  <data name="Error_CategoryTournamentLinkNotFound" xml:space="preserve">
+    <value>Nije moguće pronaći vezu kategorije i turnira.</value>
+  </data>
+  <data name="OperatorWindowTitle" xml:space="preserve">
+    <value>Operator Panel</value>
+  </data>
+  <data name="PageSubtitle_Tournaments_Operator" xml:space="preserve">
+    <value>Pregled postojećih takmičenja</value>
+  </data>
+  <data name="TournamentCategories_PageSubtitle_Operator" xml:space="preserve">
+    <value>Pregled kategorija za turnir: {0}</value>
+  </data>
+  <data name="SearchPlaceholder" xml:space="preserve">
+    <value>Pretražite...</value>
+  </data>
+  <data name="GridHeader_Placement" xml:space="preserve">
+    <value>Plasman</value>
+  </data>
+	<data name="Action_UpdatePlacement" xml:space="preserve">
+    <value>✏️ Ažuriraj plasman</value>
+  </data>
+	<data name="UpdatePlacement_WindowTitle" xml:space="preserve">
+    <value>Ažuriranje plasmana</value>
+  </data>
+	<data name="UpdatePlacement_Header" xml:space="preserve">
+    <value>Podaci o plasmanu takmičara</value>
+  </data>
+	<data name="Label_Competitor" xml:space="preserve">
+    <value>Takmičar</value>
+  </data>
+	<data name="Label_Club" xml:space="preserve">
+    <value>Klub</value>
+  </data>
+	<data name="Label_CurrentPlacement" xml:space="preserve">
+    <value>Trenutni plasman</value>
+  </data>
+	<data name="Label_NewPlacement" xml:space="preserve">
+    <value>Novi plasman</value>
+  </data>
+	<data name="Tooltip_PlacementInputInfo" xml:space="preserve">
+    <value>Unesite pozitivan ceo broj za plasman. Ostavite polje prazno ukoliko želite da uklonite postojeći plasman.</value>
+  </data>
+	<data name="Fallback_NoClub" xml:space="preserve">
+    <value>Nema kluba</value>
+  </data>
+	<data name="Error_CompetitorDataMissing" xml:space="preserve">
+    <value>Podaci o takmičaru nisu dostupni.</value>
+  </data>
+	<data name="Placement_NotSet" xml:space="preserve">
+    <value>Nije postavljen</value>
+  </data>
+	<data name="Validation_PlacementPositiveIntegerOrEmpty" xml:space="preserve">
+    <value>Plasman mora biti pozitivan ceo broj ili ostati prazan.</value>
+  </data>
+	<data name="Validation_PlacementMustBeANumberOrEmpty" xml:space="preserve">
+    <value>Plasman mora biti validan broj ili ostati prazan.</value>
+  </data>
+	<data name="Error_UpdatePlacementFailed" xml:space="preserve">
+    <value>Ažuriranje plasmana nije uspelo: {0}</value>
+  </data>
+	<data name="Warning_NoCompetitorSelected" xml:space="preserve">
+    <value>Molimo odaberite takmičara.</value>
+  </data>
+	<data name="Warning_Generic_Caption" xml:space="preserve">
+    <value>Upozorenje</value>
+  </data>
+	<data name="Error_Validation_Caption" xml:space="preserve">
+    <value>Neispravan unos</value>
+  </data>
+	<data name="Success_Generic_Caption" xml:space="preserve">
+    <value>Uspeh</value>
+  </data>
+	<data name="UpdatePlacementWindow_TitleBarText" xml:space="preserve">
+    <value>Ažuriranje plasmana takmičara</value>
+  </data>
+	<data name="UpdatePlacementWindow_Header" xml:space="preserve">
+    <value>Ažuriraj plasman za takmičara</value>
+  </data>
+	<data name="UpdatePlacementWindow_LblCompetitorInfo" xml:space="preserve">
+    <value>Informacije o takmičaru</value>
+  </data>
+	<data name="UpdatePlacementWindow_LblCompetitorName" xml:space="preserve">
+    <value>Ime i prezime:</value>
+  </data>
+	<data name="UpdatePlacementWindow_LblCompetitorClub" xml:space="preserve">
+    <value>Klub:</value>
+  </data>
+	<data name="UpdatePlacementWindow_LblPlacement" xml:space="preserve">
+    <value>Plasman:</value>
+  </data>
+	<data name="UpdatePlacementWindow_InfoPlacementDetails" xml:space="preserve">
+    <value>Unesite plasman takmičara (npr. 1, 2, 3).</value>
+  </data>
+	<data name="Validation_PlacementMustBePositive" xml:space="preserve">
+    <value>Plasman mora biti pozitivan broj ukoliko je unesen.</value>
+    <comment>Used when placement has a value but it's not positive.</comment>
+  </data>
+	<data name="MessageBox_UpdatePlacementSuccessTitle" xml:space="preserve">
+    <value>Uspeh</value>
+    <comment>Title for success message box after updating placement.</comment>
+  </data>
+	<data name="MessageBox_UpdatePlacementSuccessText" xml:space="preserve">
+    <value>Plasman takmičara je uspešno ažuriran.</value>
+    <comment>Content for success message box after updating placement.</comment>
+  </data>
+	<data name="MessageBox_UpdatePlacementErrorTitle" xml:space="preserve">
+    <value>Greška</value>
+    <comment>Title for error message box if updating placement fails.</comment>
+  </data>
+	<data name="MessageBox_UpdatePlacementErrorText" xml:space="preserve">
+    <value>Ažuriranje plasmana nije uspelo: {0}</value>
+    <comment>Content for error message box if updating placement fails, {0} is for exception message.</comment>
+  </data>
+	<data name="Settings_Theme_Header" xml:space="preserve">
+    <value>Podešavanja Teme</value>
+  </data>
+	<data name="Settings_Theme_SelectLabel" xml:space="preserve">
+    <value>Izaberite temu aplikacije:</value>
+  </data>
+	<data name="Settings_PageSubtitle" xml:space="preserve">
+    <value>Podesite vizuelni izgled aplikacije</value>
+  </data>
+</root>

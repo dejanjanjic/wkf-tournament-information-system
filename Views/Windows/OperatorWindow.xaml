@@ -1,0 +1,160 @@
+﻿<Window x:Class="WKFTournamentIS.Views.Windows.OperatorWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:properties="clr-namespace:WKFTournamentIS.Resources"
+        mc:Ignorable="d"
+        Title="{x:Static properties:Strings.OperatorWindowTitle}"
+        Height="800" Width="1200"
+        WindowStartupLocation="CenterScreen"
+        WindowStyle="None" AllowsTransparency="True" Background="Transparent"
+        ResizeMode="CanResizeWithGrip">
+
+    <Border Background="{DynamicResource WindowBackgroundBrush}" CornerRadius="12" BorderThickness="1" BorderBrush="{DynamicResource InputBorderBrush}">
+        <Border.Effect>
+            <DropShadowEffect Color="{DynamicResource WindowShadowColor}" ShadowDepth="5" Opacity="0.2" BlurRadius="15"/>
+        </Border.Effect>
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="45"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="30"/>
+            </Grid.RowDefinitions>
+
+            <Grid Grid.Row="0" x:Name="TitleBarGrid" Background="{DynamicResource TitleBarBackgroundBrush}" MouseLeftButtonDown="TitleBar_MouseLeftButtonDown">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+
+                <StackPanel Grid.Column="0" Orientation="Horizontal" VerticalAlignment="Center" Margin="15,0,0,0">
+                    <Image Source="/WKFTournamentIS;component/Assets/WKF.png" Width="24" Height="24" VerticalAlignment="Center"/>
+                    <TextBlock Text="{x:Static properties:Strings.OperatorWindowTitle}" Foreground="{DynamicResource TitleBarTextBrush}" VerticalAlignment="Center" Margin="10,0,0,0" FontSize="14" FontWeight="SemiBold"/>
+                </StackPanel>
+
+                <StackPanel Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,0,20,0">
+                    <TextBlock x:Name="UserInfoText" Text="" Foreground="{DynamicResource FooterTextBrush}" VerticalAlignment="Center" FontSize="12"/>
+                    <ComboBox Grid.Column="1"
+                              x:Name="cmbLanguage"
+                              Style="{StaticResource LanguageComboBoxStyle}"
+                              Margin="15,6,10,6"
+                              SelectionChanged="CmbLanguage_SelectionChanged">
+                        <ComboBoxItem Content="SRP" Tag="sr"/>
+                        <ComboBoxItem Content="ENG" Tag="en"/>
+                    </ComboBox>
+                </StackPanel>
+
+                <Button x:Name="btnMinimize" Grid.Column="2" Style="{StaticResource AdminMinimizeButtonStyle}" Click="BtnMinimize_Click" ToolTip="{x:Static properties:Strings.Tooltip_Minimize}"/>
+                <Button x:Name="btnMaximizeRestore" Grid.Column="3" Style="{StaticResource AdminMaximizeButtonStyle}" Click="BtnMaximizeRestore_Click" ToolTip="{x:Static properties:Strings.Tooltip_Maximize}"/>
+                <Button x:Name="btnClose" Grid.Column="4" Style="{StaticResource AdminCloseButtonStyle}" Click="BtnClose_Click" ToolTip="{x:Static properties:Strings.Tooltip_Close}"/>
+            </Grid>
+
+            <Grid Grid.Row="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="250"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Border Grid.Column="0" Background="{DynamicResource TitleBarBackgroundBrush}" BorderBrush="{DynamicResource InputBorderBrush}" BorderThickness="0,0,1,0">
+                    <StackPanel Margin="0,20,0,0">
+                        <TextBlock Text="{x:Static properties:Strings.NavGroup_Management}" Foreground="{DynamicResource FooterTextBrush}" FontSize="11" FontWeight="Bold" Margin="20,0,0,10"/>
+                        <Button x:Name="BtnTournaments" Content="{x:Static properties:Strings.NavButton_Tournaments}" Style="{StaticResource ActiveNavigationButtonStyle}" Click="BtnTournaments_Click"/>
+                        <Separator Margin="20,20" Background="{DynamicResource InputBorderBrush}" Height="1"/>
+                        <TextBlock Text="{x:Static properties:Strings.NavGroup_System}" Foreground="{DynamicResource FooterTextBrush}" FontSize="11" FontWeight="Bold" Margin="20,0,0,10"/>
+                        <Button x:Name="BtnSettings" Content="{x:Static properties:Strings.NavButton_Settings}" Style="{StaticResource NavigationButtonStyle}" Click="BtnSettings_Click"/>
+                        <Button x:Name="BtnLogout" Content="{x:Static properties:Strings.NavButton_Logout}" Style="{StaticResource NavigationButtonStyle}" Click="BtnLogout_Click" Margin="5,50,5,2"/>
+                    </StackPanel>
+                </Border>
+
+                <Grid Grid.Column="1">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+
+                    <Border Grid.Row="0" Background="{DynamicResource WindowBackgroundBrush}" BorderBrush="{DynamicResource InputBorderBrush}" BorderThickness="0,0,0,1" Padding="20,15">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="Auto"/>
+                            </Grid.ColumnDefinitions>
+                            <StackPanel Grid.Column="0" Orientation="Vertical">
+                                <TextBlock x:Name="PageTitle" Text="" FontSize="24" FontWeight="Bold" Foreground="{DynamicResource InputTextBrush}"/>
+                                <TextBlock x:Name="PageSubtitle" Text="" FontSize="14" Foreground="{DynamicResource FooterTextBrush}" Margin="0,5,0,0"/>
+                            </StackPanel>
+                            <StackPanel Grid.Column="1" Orientation="Horizontal" VerticalAlignment="Center">
+                                <TextBox x:Name="TxtSearch" Style="{StaticResource SearchTextBoxStyle}" Width="250" Tag="{x:Static properties:Strings.SearchPlaceholder}" TextChanged="TxtSearch_TextChanged"/>
+                            </StackPanel>
+                        </Grid>
+                    </Border>
+
+                    <Grid Grid.Row="1" x:Name="MainContentArea" Margin="20">
+                        <Grid x:Name="TournamentsContent" Visibility="Visible">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+                            <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="0,0,0,15">
+                                <Button x:Name="BtnViewDetails" Content="{x:Static properties:Strings.Action_Details}" Style="{StaticResource SecondaryButtonStyle}" Click="BtnViewDetails_Click" IsEnabled="False"/>
+                            </StackPanel>
+                            <Border Grid.Row="1" Style="{StaticResource CardStyle}">
+                                <DataGrid x:Name="TournamentsDataGrid" ItemsSource="{Binding TournamentsList}" SelectionChanged="TournamentsDataGrid_SelectionChanged" Margin="1" MouseDoubleClick="TournamentsDataGrid_MouseDoubleClick">
+                                    <DataGrid.Columns>
+                                        <DataGridTextColumn Header="{x:Static properties:Strings.GridHeader_TournamentName}" Binding="{Binding Name}" Width="2*"/>
+                                        <DataGridTextColumn Header="{x:Static properties:Strings.GridHeader_StartDate}" Binding="{Binding BeginningDateTime, StringFormat='dd.MM.yyyy'}" Width="Auto"/>
+                                        <DataGridTextColumn Header="{x:Static properties:Strings.GridHeader_EndDate}" Binding="{Binding EndingDateTime, StringFormat='dd.MM.yyyy'}" Width="Auto"/>
+                                        <DataGridTextColumn Header="{x:Static properties:Strings.GridHeader_Location}" Binding="{Binding Location}" Width="*"/>
+                                    </DataGrid.Columns>
+                                </DataGrid>
+                            </Border>
+                        </Grid>
+
+                        <Grid x:Name="SettingsContent" Visibility="Collapsed">
+                            <StackPanel Margin="10,5,0,0">
+                                <TextBlock Text="{x:Static properties:Strings.Settings_Theme_Header}" FontSize="18" FontWeight="SemiBold" Margin="0,0,0,20" Foreground="{DynamicResource InputTextBrush}"/>
+                                <TextBlock Text="{x:Static properties:Strings.Settings_Theme_SelectLabel}" Margin="0,10,0,8" Foreground="{DynamicResource LabelTextBrush}"/>
+                                <ComboBox x:Name="ThemeComboBox"
+                                          Width="250"
+                                          Height="40"
+                                          HorizontalAlignment="Left"
+                                          Style="{StaticResource ModernComboBoxStyle}"
+                                          ItemsSource="{Binding AvailableThemes}"
+                                          SelectedItem="{Binding CurrentTheme}"
+                                          SelectionChanged="ThemeComboBox_SelectionChanged">
+                                    <ComboBox.ItemTemplate>
+                                        <DataTemplate>
+                                            <TextBlock Text="{Binding}"/>
+                                        </DataTemplate>
+                                    </ComboBox.ItemTemplate>
+                                </ComboBox>
+                            </StackPanel>
+                        </Grid>
+
+                    </Grid>
+                </Grid>
+            </Grid>
+
+            <StatusBar Grid.Row="2" Background="{DynamicResource TitleBarBackgroundBrush}" BorderThickness="0,1,0,0" BorderBrush="{DynamicResource InputBorderBrush}">
+                <StatusBarItem>
+                    <TextBlock x:Name="StatusText" Text="{x:Static properties:Strings.Status_Ready}" FontSize="12" Foreground="{DynamicResource FooterTextBrush}"/>
+                </StatusBarItem>
+                <Separator Style="{StaticResource {x:Static ToolBar.SeparatorStyleKey}}" />
+                <StatusBarItem>
+                    <TextBlock Text="{x:Static properties:Strings.Status_Total}" FontSize="12" Foreground="{DynamicResource FooterTextBrush}"/>
+                </StatusBarItem>
+                <StatusBarItem>
+                    <TextBlock x:Name="ItemCountText" Text="0" FontSize="12" FontWeight="SemiBold" Foreground="{DynamicResource FooterTextBrush}"/>
+                </StatusBarItem>
+                <StatusBarItem HorizontalAlignment="Right">
+                    <TextBlock x:Name="CurrentTimeText" Text="" FontSize="12" Foreground="{DynamicResource FooterTextBrush}"/>
+                </StatusBarItem>
+            </StatusBar>
+        </Grid>
+    </Border>
+</Window>

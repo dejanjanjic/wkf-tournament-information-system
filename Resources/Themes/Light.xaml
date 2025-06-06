@@ -1,0 +1,45 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <SolidColorBrush x:Key="WindowBackgroundBrush" Color="#FFFFFF"/>
+    <Color x:Key="MyErrorColorValue">#DC3545</Color>
+    <Color x:Key="WindowShadowColor" A="255" R="204" G="204" B="204"/>
+    <SolidColorBrush x:Key="TitleBarBackgroundBrush" Color="#F8F9FA"/>
+    <SolidColorBrush x:Key="TitleBarTextBrush" Color="#343A40"/>
+    <SolidColorBrush x:Key="CloseButtonForegroundBrush" Color="#6C757D"/>
+    <SolidColorBrush x:Key="CloseButtonHoverBackgroundBrush" Color="#E74C3C"/>
+    <SolidColorBrush x:Key="CloseButtonHoverPressedBackgroundBrush" Color="#C50E1F"/>
+    <SolidColorBrush x:Key="CloseButtonHoverForegroundBrush" Color="White"/>
+
+    <SolidColorBrush x:Key="LabelTextBrush" Color="#495057"/>
+    <SolidColorBrush x:Key="InputBackgroundBrush" Color="#F8F9FA"/>
+    <SolidColorBrush x:Key="InputBorderBrush" Color="#CED4DA"/>
+    <SolidColorBrush x:Key="InputFocusedBorderBrush" Color="#007BFF"/>
+    <SolidColorBrush x:Key="InputTextBrush" Color="#212529"/>
+    <SolidColorBrush x:Key="InputCaretBrush" Color="#007BFF"/>
+    <SolidColorBrush x:Key="ErrorBackgroundBrush" Color="{StaticResource MyErrorColorValue}"/>
+    <SolidColorBrush x:Key="FooterTextBrush" Color="#6C757D"/>
+
+    <SolidColorBrush x:Key="PrimaryButtonBackgroundBrush" Color="#007BFF"/>
+    <SolidColorBrush x:Key="PrimaryButtonForegroundBrush" Color="White"/>
+    <SolidColorBrush x:Key="PrimaryButtonHoverBackgroundBrush" Color="#004085"/>
+    <SolidColorBrush x:Key="PrimaryButtonPressedBackgroundBrush" Color="#004085"/>
+
+    <SolidColorBrush x:Key="SuccessBackgroundBrush" Color="#4CAF50"/>
+    <SolidColorBrush x:Key="SuccessButtonHoverBackgroundBrush" Color="#45A049"/>
+    <SolidColorBrush x:Key="SuccessButtonPressedBackgroundBrush" Color="#3E8E41"/>
+
+    <SolidColorBrush x:Key="DangerBackgroundBrush" Color="{StaticResource MyErrorColorValue}"/>
+    <SolidColorBrush x:Key="DangerButtonHoverBackgroundBrush" Color="#C82333"/>
+    <SolidColorBrush x:Key="DangerButtonPressedBackgroundBrush" Color="#A51C2A"/>
+
+    <SolidColorBrush x:Key="SecondaryButtonBackgroundBrush" Color="#6C757D"/>
+    <SolidColorBrush x:Key="SecondaryButtonHoverBackgroundBrush" Color="#5A6268"/>
+    <SolidColorBrush x:Key="SecondaryButtonPressedBackgroundBrush" Color="#495057"/>
+
+    <SolidColorBrush x:Key="GoldBrush" Color="Gold"/>
+    <SolidColorBrush x:Key="SilverBrush" Color="Silver"/>
+    <SolidColorBrush x:Key="BronzeBrush" Color="#CD7F32"/>
+
+    <SolidColorBrush x:Key="NotificationTextBrush" Color="White"/>
+
+</ResourceDictionary>

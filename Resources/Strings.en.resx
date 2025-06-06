@@ -1,0 +1,861 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http:
+			  www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="TitleLogin" xml:space="preserve">
+    <value>WKF Tournament System - Login</value>
+  </data>
+  <data name="LblUsername" xml:space="preserve">
+    <value>Username</value>
+  </data>
+  <data name="LblPassword" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="BtnLogin" xml:space="preserve">
+    <value>LOGIN</value>
+  </data>
+  <data name="Copyright" xml:space="preserve">
+    <value>© WKF Tournament Management System</value>
+  </data>
+  <data name="MsgEmptyUsername" xml:space="preserve">
+    <value>Please enter a username.</value>
+  </data>
+  <data name="MsgEmptyPassword" xml:space="preserve">
+    <value>Please enter a password.</value>
+  </data>
+  <data name="AdminWindowTitle" xml:space="preserve">
+    <value>Administrator Panel</value>
+  </data>
+  <data name="NavGroup_Management" xml:space="preserve">
+    <value>MANAGEMENT</value>
+  </data>
+  <data name="NavButton_Tournaments" xml:space="preserve">
+    <value>🏆 Tournaments</value>
+  </data>
+  <data name="NavButton_Operators" xml:space="preserve">
+    <value>👤 Operators</value>
+  </data>
+  <data name="NavButton_Categories" xml:space="preserve">
+    <value>📋 Categories</value>
+  </data>
+  <data name="NavButton_Clubs" xml:space="preserve">
+    <value>🏢 Clubs</value>
+  </data>
+  <data name="NavButton_Competitors" xml:space="preserve">
+    <value>🥋 Competitors</value>
+  </data>
+  <data name="NavGroup_System" xml:space="preserve">
+    <value>SYSTEM</value>
+  </data>
+  <data name="NavButton_Settings" xml:space="preserve">
+    <value>⚙️ Settings</value>
+  </data>
+  <data name="NavButton_Logout" xml:space="preserve">
+    <value>🚪 Logout</value>
+  </data>
+  <data name="Search_Tooltip" xml:space="preserve">
+    <value>Search...</value>
+  </data>
+  <data name="Action_Edit" xml:space="preserve">
+    <value>✏️ Edit</value>
+  </data>
+  <data name="Action_Delete" xml:space="preserve">
+    <value>🗑️ Delete</value>
+  </data>
+  <data name="Action_Details" xml:space="preserve">
+    <value>👁️ Details</value>
+  </data>
+  <data name="Action_EditPassword" xml:space="preserve">
+    <value>✏️ Edit password</value>
+  </data>
+  <data name="GridHeader_TournamentName" xml:space="preserve">
+    <value>Tournament Name</value>
+  </data>
+  <data name="GridHeader_StartDate" xml:space="preserve">
+    <value>Start Date</value>
+  </data>
+  <data name="GridHeader_EndDate" xml:space="preserve">
+    <value>End Date</value>
+  </data>
+  <data name="GridHeader_Location" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="GridHeader_Username" xml:space="preserve">
+    <value>Username</value>
+  </data>
+  <data name="GridHeader_CategoryName" xml:space="preserve">
+    <value>Category Name</value>
+  </data>
+  <data name="GridHeader_FirstName" xml:space="preserve">
+    <value>First Name</value>
+  </data>
+  <data name="GridHeader_LastName" xml:space="preserve">
+    <value>Last Name</value>
+  </data>
+  <data name="GridHeader_Club" xml:space="preserve">
+    <value>Club</value>
+  </data>
+  <data name="GridHeader_DateOfBirth" xml:space="preserve">
+    <value>Date of Birth</value>
+  </data>
+  <data name="GridHeader_ClubName" xml:space="preserve">
+    <value>Club Name</value>
+  </data>
+  <data name="Status_Ready" xml:space="preserve">
+    <value>Ready</value>
+  </data>
+  <data name="Status_Total" xml:space="preserve">
+    <value>Total:</value>
+  </data>
+  <data name="Tooltip_Minimize" xml:space="preserve">
+    <value>Minimize</value>
+  </data>
+  <data name="Tooltip_Maximize" xml:space="preserve">
+    <value>Maximize</value>
+  </data>
+  <data name="Tooltip_Restore" xml:space="preserve">
+    <value>Restore</value>
+  </data>
+  <data name="Tooltip_Close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="WelcomeUser" xml:space="preserve">
+    <value>Welcome, {0}</value>
+  </data>
+  <data name="Confirm_CloseApp_Text" xml:space="preserve">
+    <value>Are you sure you want to close the application?</value>
+  </data>
+  <data name="Confirm_CloseApp_Caption" xml:space="preserve">
+    <value>Confirm Close</value>
+  </data>
+  <data name="Confirm_Logout_Text" xml:space="preserve">
+    <value>Are you sure you want to log out?</value>
+  </data>
+  <data name="Confirm_Logout_Caption" xml:space="preserve">
+    <value>Confirm Logout</value>
+  </data>
+  <data name="Settings_Info_Text" xml:space="preserve">
+    <value>Settings - functionality in development</value>
+  </data>
+  <data name="Settings_Info_Caption" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="PageTitle_Tournaments" xml:space="preserve">
+    <value>Tournament Management</value>
+  </data>
+  <data name="PageSubtitle_Tournaments" xml:space="preserve">
+    <value>Add, edit, and manage tournaments</value>
+  </data>
+  <data name="Search_Tournaments" xml:space="preserve">
+    <value>Search tournaments...</value>
+  </data>
+  <data name="Add_Tournament" xml:space="preserve">
+    <value>➕ Add Tournament</value>
+  </data>
+  <data name="PageTitle_Operators" xml:space="preserve">
+    <value>Operator Management</value>
+  </data>
+  <data name="PageSubtitle_Operators" xml:space="preserve">
+    <value>Add, edit, and manage operator accounts</value>
+  </data>
+  <data name="Search_Operators" xml:space="preserve">
+    <value>Search operators...</value>
+  </data>
+  <data name="Add_Operator" xml:space="preserve">
+    <value>➕ Add Operator</value>
+  </data>
+  <data name="PageTitle_Categories" xml:space="preserve">
+    <value>Category Management</value>
+  </data>
+  <data name="PageSubtitle_Categories" xml:space="preserve">
+    <value>Organize categories for tournaments</value>
+  </data>
+  <data name="Search_Categories" xml:space="preserve">
+    <value>Search categories...</value>
+  </data>
+  <data name="Add_Category" xml:space="preserve">
+    <value>➕ Add Category</value>
+  </data>
+  <data name="PageTitle_Competitors" xml:space="preserve">
+    <value>Competitor Management</value>
+  </data>
+  <data name="PageSubtitle_Competitors" xml:space="preserve">
+    <value>Manage competitors and their registrations</value>
+  </data>
+  <data name="Search_Competitors" xml:space="preserve">
+    <value>Search competitors...</value>
+  </data>
+  <data name="Add_Competitor" xml:space="preserve">
+    <value>➕ Add Competitor</value>
+  </data>
+  <data name="PageTitle_Clubs" xml:space="preserve">
+    <value>Club Management</value>
+  </data>
+  <data name="PageSubtitle_Clubs" xml:space="preserve">
+    <value>Add, edit, and manage clubs</value>
+  </data>
+  <data name="Search_Clubs" xml:space="preserve">
+    <value>Search clubs...</value>
+  </data>
+  <data name="Add_Club" xml:space="preserve">
+    <value>➕ Add Club</value>
+  </data>
+  <data name="Status_Loading" xml:space="preserve">
+    <value>Loading data...</value>
+  </data>
+  <data name="Status_LoadingTournaments" xml:space="preserve">
+    <value>Loading tournaments...</value>
+  </data>
+  <data name="Status_LoadingOperators" xml:space="preserve">
+    <value>Loading operators...</value>
+  </data>
+  <data name="Status_LoadingCategories" xml:space="preserve">
+    <value>Loading categories...</value>
+  </data>
+  <data name="Status_LoadingCompetitors" xml:space="preserve">
+    <value>Loading competitors...</value>
+  </data>
+  <data name="Status_LoadingClubs" xml:space="preserve">
+    <value>Loading clubs...</value>
+  </data>
+  <data name="Status_ShowingTournaments" xml:space="preserve">
+    <value>Showing {0} tournaments.</value>
+  </data>
+  <data name="Status_ShowingOperators" xml:space="preserve">
+    <value>Showing {0} operators.</value>
+  </data>
+  <data name="Status_ShowingCategories" xml:space="preserve">
+    <value>Showing {0} categories.</value>
+  </data>
+  <data name="Status_ShowingCompetitors" xml:space="preserve">
+    <value>Showing {0} competitors.</value>
+  </data>
+  <data name="Status_ShowingClubs" xml:space="preserve">
+    <value>Showing {0} clubs.</value>
+  </data>
+  <data name="Error_LoadingTournaments" xml:space="preserve">
+    <value>Error loading tournaments.</value>
+  </data>
+  <data name="Error_LoadingOperators" xml:space="preserve">
+    <value>Error loading operators.</value>
+  </data>
+  <data name="Error_LoadingCategories" xml:space="preserve">
+    <value>Error loading categories.</value>
+  </data>
+  <data name="Error_LoadingCompetitors" xml:space="preserve">
+    <value>Error loading competitors.</value>
+  </data>
+  <data name="Error_LoadingClubs" xml:space="preserve">
+    <value>Error loading clubs.</value>
+  </data>
+  <data name="Confirm_Delete_Caption" xml:space="preserve">
+    <value>Confirm Deletion</value>
+  </data>
+  <data name="Confirm_DeleteTournament_Text" xml:space="preserve">
+    <value>Are you sure you want to delete tournament '{0}'?</value>
+  </data>
+  <data name="Confirm_DeleteOperator_Text" xml:space="preserve">
+    <value>Are you sure you want to delete operator '{0}'?</value>
+  </data>
+  <data name="Confirm_DeleteCategory_Text" xml:space="preserve">
+    <value>Are you sure you want to delete category '{0}'?</value>
+  </data>
+  <data name="Confirm_DeleteCompetitor_Text" xml:space="preserve">
+    <value>Are you sure you want to delete competitor '{0} {1}'?</value>
+  </data>
+  <data name="Confirm_DeleteClub_Text" xml:space="preserve">
+    <value>Are you sure you want to delete club '{0}'?</value>
+  </data>
+  <data name="Status_Deleting" xml:space="preserve">
+    <value>Deleting...</value>
+  </data>
+  <data name="Status_Deleted" xml:space="preserve">
+    <value>Successfully deleted.</value>
+  </data>
+  <data name="Error_Deleting" xml:space="preserve">
+    <value>Deletion failed.</value>
+  </data>
+  <data name="Error_Generic" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="Error_Validation" xml:space="preserve">
+    <value>Validation Error</value>
+  </data>
+  <data name="Error_Database" xml:space="preserve">
+    <value>Database Error</value>
+  </data>
+  <data name="Error_Saving" xml:space="preserve">
+    <value>Saving Error</value>
+  </data>
+  <data name="Status_Updating" xml:space="preserve">
+    <value>Updating...</value>
+  </data>
+  <data name="Status_Updated" xml:space="preserve">
+    <value>Successfully updated.</value>
+  </data>
+  <data name="Error_Updating" xml:space="preserve">
+    <value>Update failed.</value>
+  </data>
+  <data name="Status_Adding" xml:space="preserve">
+    <value>Adding...</value>
+  </data>
+  <data name="Status_Added" xml:space="preserve">
+    <value>Successfully added.</value>
+  </data>
+  <data name="Success_Caption" xml:space="preserve">
+    <value>Success</value>
+  </data>
+  <data name="PasswordChangedSuccess" xml:space="preserve">
+    <value>Password for operator '{0}' has been successfully changed.</value>
+  </data>
+  <data name="Error_CompetitorConnected" xml:space="preserve">
+    <value>It is possible the competitor is linked to other data (e.g., results) and cannot be deleted.</value>
+  </data>
+  <data name="Error_ClubConnected" xml:space="preserve">
+    <value>Check if the club has associated competitors.</value>
+  </data>
+  <data name="InvalidCredentials" xml:space="preserve">
+    <value>Invalid username or password.</value>
+  </data>
+  <data name="LoginError" xml:space="preserve">
+    <value>An error occurred during login. Please try again.</value>
+  </data>
+  <data name="UnknownRole" xml:space="preserve">
+    <value>Unknown or unsupported user role.</value>
+  </data>
+  <data name="Error_SavingTournament" xml:space="preserve">
+    <value>Failed to save tournament to the database.</value>
+  </data>
+  <data name="Error_UpdatingTournament" xml:space="preserve">
+    <value>Failed to update tournament.</value>
+  </data>
+  <data name="AddEditCategory_TitleBarText" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="AddEditCategory_Header" xml:space="preserve">
+    <value>Category Data</value>
+  </data>
+  <data name="AddEditCategory_LblCategoryName" xml:space="preserve">
+    <value>Category Name *</value>
+  </data>
+  <data name="AddEditCategory_Info_FieldMarkedWith" xml:space="preserve">
+    <value>Field marked with </value>
+  </data>
+  <data name="AddEditCategory_Info_IsRequired" xml:space="preserve">
+    <value> is required.</value>
+  </data>
+  <data name="Button_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Button_Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="AddEditCategory_Title_Add" xml:space="preserve">
+    <value>Add New Category</value>
+  </data>
+  <data name="AddEditCategory_Title_Edit" xml:space="preserve">
+    <value>Edit Category</value>
+  </data>
+  <data name="Validation_CategoryNameRequired" xml:space="preserve">
+    <value>Category name is required.</value>
+  </data>
+  <data name="Validation_CategoryNameMaxLength" xml:space="preserve">
+    <value>Name can have a maximum of 500 characters.</value>
+  </data>
+  <data name="Validation_FixErrorsBeforeSaving" xml:space="preserve">
+    <value>Please correct the errors in the form before saving.</value>
+  </data>
+  <data name="Validation_ErrorCaption" xml:space="preserve">
+    <value>Validation Error</value>
+  </data>
+  <data name="AddEditClub_LblClubName" xml:space="preserve">
+    <value>Club Name *</value>
+  </data>
+  <data name="AddEditClub_Title_Add" xml:space="preserve">
+    <value>Add New Club</value>
+  </data>
+  <data name="AddEditClub_Title_Edit" xml:space="preserve">
+    <value>Edit Club</value>
+  </data>
+  <data name="Validation_ClubNameRequired" xml:space="preserve">
+    <value>Club name is required.</value>
+  </data>
+  <data name="Validation_ClubNameMaxLength" xml:space="preserve">
+    <value>Club name cannot be longer than 200 characters.</value>
+  </data>
+  <data name="Validation_FixErrorsInForm" xml:space="preserve">
+    <value>Please correct the errors in the form.</value>
+  </data>
+  <data name="AddEditCompetitor_TitleBarText" xml:space="preserve">
+    <value>Competitor</value>
+  </data>
+  <data name="AddEditCompetitor_Header" xml:space="preserve">
+    <value>Competitor Data</value>
+  </data>
+  <data name="AddEditCompetitor_LblFirstName" xml:space="preserve">
+    <value>First Name *</value>
+  </data>
+  <data name="AddEditCompetitor_LblLastName" xml:space="preserve">
+    <value>Last Name *</value>
+  </data>
+  <data name="AddEditCompetitor_LblClub" xml:space="preserve">
+    <value>Club *</value>
+  </data>
+  <data name="AddEditCompetitor_LblDateOfBirth" xml:space="preserve">
+    <value>Date of Birth *</value>
+  </data>
+  <data name="AddEditCompetitor_Info_AllFieldsRequired" xml:space="preserve">
+    <value>All fields marked with </value>
+  </data>
+  <data name="AddEditCompetitor_Title_Add" xml:space="preserve">
+    <value>Add New Competitor</value>
+  </data>
+  <data name="AddEditCompetitor_Title_Edit" xml:space="preserve">
+    <value>Edit Competitor: {0} {1}</value>
+  </data>
+  <data name="Validation_FirstNameRequired" xml:space="preserve">
+    <value>First name is required.</value>
+  </data>
+  <data name="Validation_FirstNameMaxLength" xml:space="preserve">
+    <value>First name can have a maximum of 50 characters.</value>
+  </data>
+  <data name="Validation_LastNameRequired" xml:space="preserve">
+    <value>Last name is required.</value>
+  </data>
+  <data name="Validation_LastNameMaxLength" xml:space="preserve">
+    <value>Last name can have a maximum of 100 characters.</value>
+  </data>
+  <data name="Validation_DateOfBirthRequired" xml:space="preserve">
+    <value>Date of birth is required.</value>
+  </data>
+  <data name="Validation_DateOfBirthInvalidFuture" xml:space="preserve">
+    <value>Date of birth cannot be in the future.</value>
+  </data>
+  <data name="Validation_DateOfBirthMinAge" xml:space="preserve">
+    <value>Competitor must be at least 3 years old.</value>
+  </data>
+  <data name="Validation_ClubRequired" xml:space="preserve">
+    <value>Club selection is required.</value>
+  </data>
+  <data name="Error_LoadingClubs_MessageBox" xml:space="preserve">
+    <value>Error loading clubs: {0}</value>
+  </data>
+  <data name="AddEditOperator_TitleBarText" xml:space="preserve">
+    <value>Operator</value>
+  </data>
+  <data name="AddEditOperator_Header" xml:space="preserve">
+    <value>Operator Information</value>
+  </data>
+  <data name="AddEditOperator_LblUsername" xml:space="preserve">
+    <value>Username *</value>
+  </data>
+  <data name="AddEditOperator_LblPassword" xml:space="preserve">
+    <value>Password *</value>
+  </data>
+  <data name="AddEditOperator_LblConfirmPassword" xml:space="preserve">
+    <value>Confirm Password *</value>
+  </data>
+  <data name="AddEditOperator_Info_PasswordMinLength" xml:space="preserve">
+    <value>Password must be at least 6 characters long.</value>
+  </data>
+  <data name="AddEditOperator_Title_Add" xml:space="preserve">
+    <value>Add New Operator</value>
+  </data>
+  <data name="AddEditOperator_Title_Edit" xml:space="preserve">
+    <value>Edit Operator: {0}</value>
+  </data>
+  <data name="Validation_UsernameRequired" xml:space="preserve">
+    <value>Username is required.</value>
+  </data>
+  <data name="Validation_UsernameMinLength" xml:space="preserve">
+    <value>Username must be at least 3 characters long.</value>
+  </data>
+  <data name="Validation_UsernameMaxLength" xml:space="preserve">
+    <value>Username can have a maximum of 50 characters.</value>
+  </data>
+  <data name="Validation_PasswordRequired" xml:space="preserve">
+    <value>Password is required.</value>
+  </data>
+  <data name="Validation_PasswordMinLength" xml:space="preserve">
+    <value>Password must be at least 6 characters long.</value>
+  </data>
+  <data name="Validation_PasswordMaxLength" xml:space="preserve">
+    <value>Password can have a maximum of 100 characters.</value>
+  </data>
+  <data name="Validation_ConfirmPasswordRequired" xml:space="preserve">
+    <value>Confirm your password.</value>
+  </data>
+  <data name="Validation_PasswordsDoNotMatch" xml:space="preserve">
+    <value>Passwords do not match.</value>
+  </data>
+  <data name="AddTournament_TitleBarText" xml:space="preserve">
+    <value>Tournament</value>
+  </data>
+  <data name="AddTournament_Header" xml:space="preserve">
+    <value>Tournament Information</value>
+  </data>
+  <data name="AddTournament_LblTournamentName" xml:space="preserve">
+    <value>Tournament Name *</value>
+  </data>
+  <data name="AddTournament_LblLocation" xml:space="preserve">
+    <value>Location *</value>
+  </data>
+  <data name="AddTournament_LblSchedule" xml:space="preserve">
+    <value>Tournament Schedule</value>
+  </data>
+  <data name="AddTournament_LblBeginningDateTime" xml:space="preserve">
+    <value>Start Date and Time *</value>
+  </data>
+  <data name="AddTournament_LblEndingDateTime" xml:space="preserve">
+    <value>End Date and Time *</value>
+  </data>
+  <data name="AddTournament_Info_TimeFormat" xml:space="preserve">
+    <value>Enter time in 24-hour format (00-23 for hours, 00-59 for minutes).</value>
+  </data>
+  <data name="AddTournament_Title_Add" xml:space="preserve">
+    <value>Add New Tournament</value>
+  </data>
+  <data name="AddTournament_Title_Edit" xml:space="preserve">
+    <value>Edit Tournament</value>
+  </data>
+  <data name="Validation_TournamentNameRequired" xml:space="preserve">
+    <value>Tournament name is required.</value>
+  </data>
+  <data name="Validation_TournamentNameMaxLength" xml:space="preserve">
+    <value>Name can have a maximum of 500 characters.</value>
+  </data>
+  <data name="Validation_LocationRequired" xml:space="preserve">
+    <value>Location is required.</value>
+  </data>
+  <data name="Validation_BeginningDateInPast" xml:space="preserve">
+    <value>Start date cannot be in the past.</value>
+  </data>
+  <data name="Validation_EndingDateBeforeBeginning" xml:space="preserve">
+    <value>End date must be after the start date.</value>
+  </data>
+  <data name="AssignCategory_WindowTitle" xml:space="preserve">
+    <value>Assign Category</value>
+  </data>
+  <data name="AssignCategory_TitleBarText" xml:space="preserve">
+    <value>Add Category to Tournament</value>
+  </data>
+  <data name="AssignCategory_LblSelectCategory" xml:space="preserve">
+    <value>Select Category *</value>
+  </data>
+  <data name="AssignCategory_NoAvailableCategories" xml:space="preserve">
+    <value>No more available categories to add.</value>
+  </data>
+  <data name="Error_LoadingAvailableCategories" xml:space="preserve">
+    <value>Error loading available categories: {0}</value>
+  </data>
+  <data name="CategoryCompetitors_WindowTitle" xml:space="preserve">
+    <value>Competitors - {0}</value>
+  </data>
+  <data name="CategoryCompetitors_PageSubtitle" xml:space="preserve">
+    <value>Competitors for category: '{0}' in tournament: '{1}'</value>
+  </data>
+  <data name="CategoryCompetitors_BtnAddCompetitor" xml:space="preserve">
+    <value>➕ Add Competitor</value>
+  </data>
+  <data name="CategoryCompetitors_BtnRemoveCompetitor" xml:space="preserve">
+    <value>🗑️ Remove Competitor</value>
+  </data>
+  <data name="Error_LoadingRegisteredCompetitors" xml:space="preserve">
+    <value>Error loading competitors: {0}</value>
+  </data>
+  <data name="Error_RegisteringCompetitor" xml:space="preserve">
+    <value>Error registering competitor: {0}</value>
+  </data>
+  <data name="Confirm_RemoveCompetitor_Text" xml:space="preserve">
+    <value>Are you sure you want to remove competitor '{0}' from this category?</value>
+  </data>
+  <data name="Error_RemovingCompetitor_Failed" xml:space="preserve">
+    <value>Failed to remove competitor.</value>
+  </data>
+  <data name="Error_RemovingCompetitor_Generic" xml:space="preserve">
+    <value>Error removing competitor: {0}</value>
+  </data>
+  <data name="RegisterCompetitor_WindowTitle" xml:space="preserve">
+    <value>Register Competitor</value>
+  </data>
+  <data name="RegisterCompetitor_TitleBarText" xml:space="preserve">
+    <value>Register Competitor for Category</value>
+  </data>
+  <data name="RegisterCompetitor_LblSelectCompetitor" xml:space="preserve">
+    <value>Select Competitor *</value>
+  </data>
+  <data name="RegisterCompetitor_NoAvailableCompetitors" xml:space="preserve">
+    <value>No more available competitors to register.</value>
+  </data>
+  <data name="Error_LoadingAvailableCompetitors" xml:space="preserve">
+    <value>Error loading available competitors: {0}</value>
+  </data>
+  <data name="TournamentCategories_WindowTitle" xml:space="preserve">
+    <value>Categories for: {0}</value>
+  </data>
+  <data name="TournamentCategories_PageSubtitle" xml:space="preserve">
+    <value>View and manage categories for tournament: {0}</value>
+  </data>
+  <data name="TournamentCategories_BtnViewCompetitors" xml:space="preserve">
+    <value>👥 Competitors</value>
+  </data>
+  <data name="TournamentCategories_BtnAddCategory" xml:space="preserve">
+    <value>➕ Add Category</value>
+  </data>
+  <data name="TournamentCategories_BtnRemoveCategory" xml:space="preserve">
+    <value>🗑️ Remove Category</value>
+  </data>
+  <data name="Error_LoadingCategoriesForTournament" xml:space="preserve">
+    <value>Error loading categories: {0}</value>
+  </data>
+  <data name="Error_AddingCategoryToTournament" xml:space="preserve">
+    <value>Error adding category: {0}</value>
+  </data>
+  <data name="Confirm_RemoveCategoryFromTournament_Text" xml:space="preserve">
+    <value>Are you sure you want to remove category '{0}' from this tournament?</value>
+  </data>
+  <data name="Error_RemovingCategoryFromTournament_Failed" xml:space="preserve">
+    <value>Failed to remove category.</value>
+  </data>
+  <data name="Error_RemovingCategoryFromTournament_Generic" xml:space="preserve">
+    <value>Error removing category: {0}</value>
+  </data>
+  <data name="Error_CategoryTournamentLinkNotFound" xml:space="preserve">
+    <value>Cannot find the link between category and tournament.</value>
+  </data>
+  <data name="OperatorWindowTitle" xml:space="preserve">
+    <value>Operator Panel</value>
+  </data>
+  <data name="PageSubtitle_Tournaments_Operator" xml:space="preserve">
+    <value>Browse and view existing tournaments</value>
+  </data>
+  <data name="TournamentCategories_PageSubtitle_Operator" xml:space="preserve">
+    <value>Category overview for tournament: {0}</value>
+  </data>
+  <data name="SearchPlaceholder" xml:space="preserve">
+    <value>Search...</value>
+  </data>
+  <data name="Strings.GridHeader_Placement" xml:space="preserve">
+    <value>Placement</value>
+  </data>
+	<data name="Action_UpdatePlacement" xml:space="preserve">
+    <value>✏️ Update Placement</value>
+  </data>
+	<data name="UpdatePlacement_WindowTitle" xml:space="preserve">
+    <value>Update Placement</value>
+  </data>
+	<data name="UpdatePlacement_Header" xml:space="preserve">
+    <value>Competitor Placement Details</value>
+  </data>
+	<data name="Label_Competitor" xml:space="preserve">
+    <value>Competitor</value>
+  </data>
+	<data name="Label_Club" xml:space="preserve">
+    <value>Club</value>
+  </data>
+	<data name="Label_CurrentPlacement" xml:space="preserve">
+    <value>Current Placement</value>
+  </data>
+	<data name="Label_NewPlacement" xml:space="preserve">
+    <value>New Placement</value>
+  </data>
+	<data name="Tooltip_PlacementInputInfo" xml:space="preserve">
+    <value>Enter a positive integer for the placement. Leave the field empty if you want to remove the existing placement.</value>
+  </data>
+	<data name="Fallback_NoClub" xml:space="preserve">
+    <value>No Club</value>
+  </data>
+	<data name="Error_CompetitorDataMissing" xml:space="preserve">
+    <value>Competitor data is not available.</value>
+  </data>
+	<data name="Placement_NotSet" xml:space="preserve">
+    <value>Not Set</value>
+  </data>
+	<data name="Validation_PlacementPositiveIntegerOrEmpty" xml:space="preserve">
+    <value>Placement must be a positive integer or left empty.</value>
+  </data>
+	<data name="Validation_PlacementMustBeANumberOrEmpty" xml:space="preserve">
+    <value>Placement must be a valid number or left empty.</value>
+  </data>
+	<data name="Error_UpdatePlacementFailed" xml:space="preserve">
+    <value>Placement update failed: {0}</value>
+  </data>
+	<data name="Warning_NoCompetitorSelected" xml:space="preserve">
+    <value>Please select a competitor.</value>
+  </data>
+	<data name="Warning_Generic_Caption" xml:space="preserve">
+    <value>Warning</value>
+  </data>
+	<data name="Error_Validation_Caption" xml:space="preserve">
+    <value>Invalid Input</value>
+  </data>
+	<data name="Success_Generic_Caption" xml:space="preserve">
+    <value>Success</value>
+  </data>
+	<data name="UpdatePlacementWindow_TitleBarText" xml:space="preserve">
+    <value>Update Competitor Placement</value>
+  </data>
+	<data name="UpdatePlacementWindow_Header" xml:space="preserve">
+    <value>Update Placement for Competitor</value>
+  </data>
+	<data name="UpdatePlacementWindow_LblCompetitorInfo" xml:space="preserve">
+    <value>Competitor Information</value>
+  </data>
+	<data name="UpdatePlacementWindow_LblCompetitorName" xml:space="preserve">
+    <value>Name:</value>
+  </data>
+	<data name="UpdatePlacementWindow_LblCompetitorClub" xml:space="preserve">
+    <value>Club:</value>
+  </data>
+	<data name="UpdatePlacementWindow_LblPlacement" xml:space="preserve">
+    <value>Placement:</value>
+  </data>
+	<data name="UpdatePlacementWindow_InfoPlacementDetails" xml:space="preserve">
+    <value>Enter the competitor's placement (e.g., 1, 2, 3).</value>
+  </data>
+	<data name="Validation_PlacementMustBePositive" xml:space="preserve">
+    <value>Placement must be a positive number if specified.</value>
+    <comment>Used when placement has a value but it's not positive.</comment>
+  </data>
+	<data name="MessageBox_UpdatePlacementSuccessTitle" xml:space="preserve">
+    <value>Success</value>
+    <comment>Title for success message box after updating placement.</comment>
+  </data>
+	<data name="MessageBox_UpdatePlacementSuccessText" xml:space="preserve">
+    <value>Competitor placement updated successfully.</value>
+    <comment>Content for success message box after updating placement.</comment>
+  </data>
+	<data name="MessageBox_UpdatePlacementErrorTitle" xml:space="preserve">
+    <value>Error</value>
+    <comment>Title for error message box if updating placement fails.</comment>
+  </data>
+	<data name="MessageBox_UpdatePlacementErrorText" xml:space="preserve">
+    <value>Failed to update placement: {0}</value>
+    <comment>Content for error message box if updating placement fails, {0} is for exception message.</comment>
+  </data>
+	<data name="Settings_Theme_Header" xml:space="preserve">
+    <value>Theme Settings</value>
+  </data>
+	<data name="Settings_Theme_SelectLabel" xml:space="preserve">
+    <value>Select application theme:</value>
+  </data>
+	<data name="Settings_PageSubtitle" xml:space="preserve">
+    <value>Adjust the visual appearance of the application</value>
+  </data>
+</root>
