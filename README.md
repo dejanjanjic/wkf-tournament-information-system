@@ -40,7 +40,7 @@ Administrator ima najviše privilegije u aplikaciji:
 - ![dodavanje kategorije admin](https://github.com/user-attachments/assets/d11f8297-815d-4357-9f11-08bf8b3a49da)
 - ![dodavanje kategorije admin na turnir](https://github.com/user-attachments/assets/d786c950-60e9-4e0b-9249-4e6b340f4866)
 
-- ✅ Upravljanje **takmičarima**, njihovo svrstavanje u kategoriju, i dodavanje na takmičenja, pregled plasmana
+- ✅ Upravljanje **takmičarima**, njihovo svrstavanje u kategoriju, dodavanje na takmičenja, pregled plasmana
 - ![dodavanje ucesnika za kategoriju na turniru](https://github.com/user-attachments/assets/ad8dd55f-c1e3-42c5-84c5-04aeea14665b)
 - ![registracija ucesnika za kategoriju](https://github.com/user-attachments/assets/de1ee708-8a55-48f7-b569-b0c4cc29c625)
 - ![Aucesnici](https://github.com/user-attachments/assets/2e0d7638-4953-4e34-b859-260edc45723b)
@@ -64,25 +64,25 @@ Administrator ima najviše privilegije u aplikaciji:
 - ![Adodavanje kluba admin sa pod](https://github.com/user-attachments/assets/743b9d51-14fa-480b-9ea5-1601c87d6736)
 
 
--------------------------------------------------------------
+--------------------------------------------------
 
 ## 👤 Funkcije za operatore
 
-Operateri su korisnici koji pregledaju infomracije o turnirima, njihovim kategorijama i takmičarima po kategorija. Takođe, glavna funkcionalnost je dodjeljivanje plasmana takmičarima na takmičenju.
+Operatori su korisnici koji pregledaju infomracije o turnirima, njihovim kategorijama i takmičarima po kategorijama. Takođe, glavna funkcionalnost je dodjeljivanje plasmana takmičarima na takmičenju.
 
 - 📝 Pregled turnira i kategorija na turniru
 - ![Oturnir](https://github.com/user-attachments/assets/6868a59f-5d66-42b0-890d-d4c80b3af0b4)
 - ![Opregled kategorija](https://github.com/user-attachments/assets/188bd781-01a5-4490-b53f-3ac827fdd23a)
 
 
-- 👤 Pregled takmičara (ime, klub, država, datum rođenja, itd.) i pretraga po imenu, klubu ili kategoriji
+- 👤 Pregled takmičara (ime i prezime, klub, država, plasman)
 - ![Otakmicari u kategoriji](https://github.com/user-attachments/assets/11388930-9f13-4fc6-bce0-04398d66a8b2)
 
 - 📊 Ažuriranje plasmana takmičara
 - ![Oupravljanje plasmanom](https://github.com/user-attachments/assets/eb7b22fe-0a57-4f8d-a910-da9cdc3d5abe)
 
 
----
+--------------------------------------------------
 
 ## 🎨 Teme i jezici
 
@@ -96,7 +96,7 @@ Aplikacija podržava personalizaciju korisničkog iskustva i za administratore i
 - ![Atema](https://github.com/user-attachments/assets/e8c9daee-be3e-4c2f-884a-70eacd2aa570)
 - ![Atema2](https://github.com/user-attachments/assets/a71e520b-f869-4c91-be03-7e59c4a2ac75)
 
----
+--------------------------------------------------
 
 ## 💻 Tehnička dokumentacija
 
@@ -109,7 +109,7 @@ Aplikacija podržava personalizaciju korisničkog iskustva i za administratore i
   - `/resources` – Slike, stilovi, jezičke datoteke
   - `/utils` – Pomoćne klase (npr. za validaciju, čuvanje podataka)
 
----
+--------------------------------------------------
 
 ## 📦 Pokretanje aplikacije
 
