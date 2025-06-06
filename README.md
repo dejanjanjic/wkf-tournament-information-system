@@ -1,6 +1,6 @@
 # WKF-Tournament informational system
 
-**WKF-Tournament** je informacioni sistem za evidenciju i organizaciju karate turnira, razvijen u skladu sa pravilima Svjetske karate federacije (WKF). Omogućava efikasno upravljanje takmičenjem kroz unos i organizaciju učesnika, kategorija i mečeva.
+**WKF-Tournament** je informacioni sistem za evidenciju i organizaciju karate turnira, razvijen u skladu sa pravilima Svjetske karate federacije (WKF). Omogućava efikasno upravljanje takmičenjima kroz unos i organizaciju učesnika, kategorija i mečeva.
 
 ## 📑 Sadržaj
 
@@ -14,7 +14,7 @@
 
 ## 🏠 Početna strana
 
-Po pokretanju aplikacije prikazuje se početna stranica na kojoj korisnik može:
+Pri pokretanju aplikacije prikazuje se početna stranica na kojoj korisnik može:
 
 - Odabrati jezik interfejsa
 - Prijaviti se kao **administrator** ili **operater** i tako preći na rad sa takmičarima i kategorijama
@@ -48,7 +48,7 @@ Administrator ima najviše privilegije u aplikaciji:
 - ![Adodavanje ucesnika sa pod](https://github.com/user-attachments/assets/b29990b1-66b6-474a-9fbd-cb12af4dd12f)
 
 
-- ✅ Upravljanje **operatorima** 
+- ✅ Upravljanje **operaterima** 
 - ![upravljanje operatorima admin](https://github.com/user-attachments/assets/17203086-6521-4493-a6a6-23b10fabe584)
 - ![info operatora admin](https://github.com/user-attachments/assets/173e9b4c-4a04-4d3f-b402-91bcf1474a46)
 
@@ -66,9 +66,9 @@ Administrator ima najviše privilegije u aplikaciji:
 
 --------------------------------------------------
 
-## 👤 Funkcije za operatore
+## 👤 Funkcije za operatere
 
-Operatori su korisnici koji pregledaju infomracije o turnirima, njihovim kategorijama i takmičarima po kategorijama. Takođe, glavna funkcionalnost je dodjeljivanje plasmana takmičarima na takmičenju.
+Operateri su korisnici koji pregledaju informacije o turnirima, njihovim kategorijama i takmičarima po kategorijama. Takođe, glavna funkcionalnost je dodjeljivanje plasmana takmičarima na takmičenju.
 
 - 📝 Pregled turnira i kategorija na turniru
 - ![Oturnir](https://github.com/user-attachments/assets/6868a59f-5d66-42b0-890d-d4c80b3af0b4)
